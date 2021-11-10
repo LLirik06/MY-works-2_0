@@ -126,6 +126,19 @@ box-shadow: 5px 5px 15px 5px #80ff84, -9px 5px 15px 5px #FFE488, -7px -5px 15px 
 .botom a:hover{
     background-color:rgb(230, 23, 85) ;
 }
+.botom2 a{
+    font-size: 30px;
+    color: rgb(127, 255, 210);
+    text-decoration: none;
+    border-radius: 10px;
+    background-color:rgba(230, 23, 85, 0.624) ;
+    padding: 8px 70px;
+    transition: 1s;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+.botom2 a:hover{
+    background-color:rgb(230, 23, 85) ;
+}
 .content2{
     background-color: burlywood;
     margin-top: 1cm;
@@ -204,6 +217,9 @@ input:checked +.global H3{
     .content2{
         height: 750px;
     }
+    .botom2{
+        display: none;
+    }
 }
 @media screen and (max-width:660px){
     .head{
@@ -228,6 +244,9 @@ input:checked +.global H3{
     }
     .content2{
         height: 600px;
+    }
+    .botom2{
+        display: none;
     }
 }
 @media screen and (max-width:660px){
@@ -267,5 +286,8 @@ input:checked +.global H3{
     }
     .content2{
         height: 600px;
+    }
+    .botom2{
+        display: none;
     }
 }

@@ -245,9 +245,6 @@ input:checked +.global H3{
     .content2{
         height: 600px;
     }
-    .botom2{
-        display: none;
-    }
 }
 @media screen and (max-width:660px){
     .head{
@@ -286,8 +283,5 @@ input:checked +.global H3{
     }
     .content2{
         height: 600px;
-    }
-    .botom2{
-        display: none;
     }
 }

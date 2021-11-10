@@ -220,6 +220,9 @@ input:checked +.global H3{
     .botom2{
         display: none;
     }
+    .botom2 a{
+        display: none;
+    }
 }
 @media screen and (max-width:660px){
     .head{

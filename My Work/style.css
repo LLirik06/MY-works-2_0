@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+*{
+    margin: 0 auto;
+}
+body{
+    /* background: url(./img/programming-wallpaper-preview.jpg);
+    background-size: cover; */
+    background-color: blanchedalmond;
+}
+.head{
+    width: 100%;
+    height: 244px;
+    text-align: center;
+    padding-top: 50px;
+    color: rgba(210, 105, 30, 0.768);;
+}
+.first{
+    font-size: 70px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+.second{
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+}
+.content1{
+    background-color: burlywood;
+    margin-top: 1cm;
+    width: 80%;
+    height: 800px;
+    /* background: url(./img/30304-kosmos-prostranstvo-purpur-ishodnyj_kod-uzor-3840x2160.jpg);
+    background-size: cover; */
+    border-radius: 25px;
+    -webkit-box-shadow: 5px 5px 15px 12px #000000; 
+    box-shadow: 5px 5px 15px 12px #000000;
+}
+.firstpp{
+    margin-left: 20px;
+    font-size: 40px;
+    /* color: rgb(230, 200, 34); */
+    color: rgb(54, 47, 6);
+    font-family: 'Mochiy Pop P One', sans-serif;
+    text-align: center;
+}
+.head1{
+    background-color: burlywood;
+    width: 80%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 15px;
+    /* background: url(./img/30304-kosmos-prostranstvo-purpur-ishodnyj_kod-uzor-3840x2160.jpg); */
+    border-radius: 20px;
+    -webkit-box-shadow: 5px 5px 15px 12px #000000; 
+    box-shadow: 5px 5px 15px 12px #000000;
+}
+.cv{
+    margin-bottom: 20px;
+}
+.botom1 a{
+    font-size: 30px;
+    color: rgb(127, 255, 210);
+    text-decoration: none;
+    border-radius: 10px;
+    background-color:rgba(230, 23, 85, 0.624) ;
+    padding: 8px 70px;
+    transition: 1s;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+.botom1 a:hover{
+    background-color:rgb(230, 23, 85) ;
+}
+.firstp{
+    margin-left: 20px;
+    font-size: 40px;
+    color: rgb(54, 47, 6);
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+}
+.work{
+    background-color: coral;
+    margin-top: 1cm;
+    width: 400px;
+    height: 250px;
+    color: #a9000b;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 20px;
+    /* background: url(./img/code-byte-digital-cryptography.jpg);
+    background-size: cover; */
+    border-radius: 20px;
+    text-align: center;
+         -webkit-box-shadow: 5px 5px 15px 5px #80ff84, -9px 5px 15px 5px #88ffe5, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #88ffa6, -10px 10px 15px 7px #61ffd5, -10px -7px 27px 1px #5cff6f, 5px 5px 48px 5px rgba(0,0,0,0); 
+box-shadow: 5px 5px 15px 5px #80ff84, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #88ffa6, -10px 10px 15px 7px #61ffd5, -10px -7px 27px 1px #5cff6f, 5px 5px 48px 5px rgba(0,0,0,0);
+}
+.fst{
+    display: flex;
+    padding-top: 50px;
+    color: aquamarine;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 20px;
+}
+.s{
+    display: flex;
+    padding-top: 50px;
+    color: aquamarine;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 20px;
+}
+.botom a{
+    color: rgb(127, 255, 210);
+    text-decoration: none;
+    border-radius: 10px;
+    background-color:rgba(230, 23, 85, 0.624) ;
+    padding: 10px 40px;
+    transition: 1s;
+}
+.botom a:hover{
+    background-color:rgb(230, 23, 85) ;
+}
+.content2{
+    background-color: burlywood;
+    margin-top: 1cm;
+    width: 80%;
+    height: 1000px;
+    /* background: url(./img/30304-kosmos-prostranstvo-purpur-ishodnyj_kod-uzor-3840x2160.jpg);
+    background-size: cover; */
+    border-radius: 25px;
+    -webkit-box-shadow: 5px 5px 15px 12px #000000; 
+    box-shadow: 5px 5px 15px 12px #000000;
+}
+input{
+    position: absolute;
+    top: -20px;
+}
+input::before{
+    content: "";
+    position: fixed;
+    right: 10%;
+    top: 20px;
+    width: 50px;
+    height: 50px;
+    background: url(./img/base_87716f252d.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    cursor:pointer;
+}
+input:checked + .global{
+    background: url(./img/programming-wallpaper-preview.jpg);
+    background-size: cover;
+}
+input:checked + .global .head1{
+     background: url(./img/30304-kosmos-prostranstvo-purpur-ishodnyj_kod-uzor-3840x2160.jpg);
+     background-size: cover;
+}
+input:checked + .global .firstpp{
+    color: rgb(230, 200, 34);
+}
+input:checked + .global .content1{
+    background: url(./img/30304-kosmos-prostranstvo-purpur-ishodnyj_kod-uzor-3840x2160.jpg);
+    background-size: cover;
+}
+input:checked + .global .firstp{
+    color: rgb(230, 200, 34);
+}
+input:checked + .global .content2{
+    background: url(./img/30304-kosmos-prostranstvo-purpur-ishodnyj_kod-uzor-3840x2160.jpg);
+    background-size: cover;
+}
+input:checked + .global .work{
+    background: url(./img/C1.gif);
+    background-size: cover;
+    
+}
+input:checked +.global H3{
+    color: rgb(6, 255, 39);
+}
+@media screen and (max-width:1080px) {
+    .work{
+        font-size: 20px;
+        width: 300px;
+        height: 170px;
+    }
+    .par{
+        display: none;
+    }
+}
+@media screen and (max-width:800px){
+    .work{
+        width: 250px;
+        height: 120px;
+    }
+    .content1{
+        height: 600px;
+    }
+    .content2{
+        height: 750px;
+    }
+}
+@media screen and (max-width:660px){
+    .head{
+        height: 200px;
+    }
+    .firstp{
+        font-size: 25px;
+    }
+    .work{
+        font-size: 15px;
+        width: 175px;
+        height: 100px;
+    }
+    .fst{
+        padding-top:10px ;
+    }
+    .botom a{
+        padding: 0;
+    }
+    .content1{
+        height: 500px;
+    }
+    .content2{
+        height: 600px;
+    }
+}
+@media screen and (max-width:660px){
+    .head{
+        height: 175px;
+    }
+    .first{
+        font-size: 45px;
+    }
+    .second{
+        font-size: 25px;
+    }
+    .work{
+        width: 125px;
+    }
+    .content1{
+        height: 400px;
+    }
+    .content2{
+        height: 500px;
+    }
+}
+@media screen and (max-width:470px){
+    .head{
+        height: 100px;
+    }
+    .firstp{
+        font-size: 15px;
+    }
+    .work{
+        font-size: 10px;
+        -webkit-box-shadow: 16px 16px 25px 3px rgba(0,255,70,0.43); 
+        box-shadow: 16px 16px 25px 3px rgba(0,255,70,0.43);
+    }
+    .content1{
+        height: 500px;
+    }
+    .content2{
+        height: 600px;
+    }
+}

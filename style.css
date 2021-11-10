@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
+*{
+    margin: 0 auto;
+}
+body{
+    background-color: blanchedalmond;
+}
+.bady{
+    height: 100%;
+    width: 100%;
+}
+.global{
+    padding-top: 20px;
+}
+.head{
+    /* margin-top: 1cm; */
+    width: 80%;
+    height: 600px;
+    background-color: white;
+    /* background: url(./img/30304-kosmos-prostranstvo-purpur-ishodnyj_kod-uzor-3840x2160.jpg);
+    background-size: cover; */
+    border-radius: 25px;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+.head1{
+    display: flex;
+
+}
+.head1 a{
+    color: rgb(255, 123, 0);
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 1cm;
+    transition: 1s;
+}
+.head1 a:hover{
+    color: rgb(255, 217, 0);
+    text-decoration: underline;
+    font-size: 27px;
+}
+.first{
+    color: rgba(255, 123, 0, 0.871);
+    margin-top: 0.5cm;
+    margin-left: 4cm;
+    font-size: 50px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+hr{
+    margin-top: 10px;
+    width: 90%;
+}
+.second{
+    margin-top: 1cm;
+    margin-right: 4cm;
+    font-family: 'Oswald', sans-serif;
+}
+.scd{
+    color: rgba(210, 105, 30, 0.933);
+    text-align: center;
+    padding-top: 2cm;
+    font-size: 70px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+.trd{
+    color: rgba(210, 105, 30, 0.768);
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+}
+.bottom{
+    width: 100%;
+    height: 30%;
+    margin-top: 50px;
+    text-align: center;
+}
+.knopka{
+    padding: 10px 50px;
+    text-decoration: none;
+    border: 1px solid rgba(255, 145, 0, 0.522);
+    background-color: rgba(255, 145, 0, 0.522);
+    color: rgb(0, 39, 3);
+    font-size: 20px;
+    font-family: 'Ceviche One', cursive;
+    transition: 1s;
+    border-radius: 10px;
+}
+.knopka:hover{
+    background-color: rgb(255, 145, 0);
+    color: rgb(63, 63, 255);
+
+}
+.content{
+    display: flex   ;
+    margin-top: 1cm;
+    width: 80%;
+    height: 600px;
+    background-color: white;
+    /* background: url(./img/30304-kosmos-prostranstvo-purpur-ishodnyj_kod-uzor-3840x2160.jpg);
+    background-size: cover; */
+    border-radius: 25px;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+.content1{
+    margin-left: 0;
+    height: 80%;
+    width: 20%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding-left: 20px;
+    border-right: 1px solid rgb(109, 109, 109);
+}
+.content1 p{
+    margin-top: 1cm;
+    font-size: 30px;
+}
+.content1 a{
+    text-decoration: none;
+    color: rgba(255, 145, 0, 0.775);
+
+}
+.content2{
+    height: 100%;
+    width: 80%;
+}
+.img{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    background: url(./img/изображение_viber_2021-11-08_15-04-42-392.jpg);
+    background-size: cover ;
+    border-radius: 20px;
+}
+.bottom2{
+    width: 100%;
+    height: 30px;
+}
+.knopka2 a{
+    position: relative;
+    top: 100px;
+    left: 450px;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px 40px;
+    color: white;
+    border: 1px solid rgba(250, 128, 114, 0.665);
+    background-color: rgba(250, 128, 114, 0.665);
+    border-radius: 10px;
+    transition: 1s;
+}
+.knopka2 a:hover{
+    background-color: salmon;
+}
+.footer{
+    margin-top: 3cm;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(96, 74, 242, 0.652);
+    color: rgb(63, 29, 23);
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+input{
+    position: absolute;
+    top: -100px;
+}
+input::before{
+    content: "";
+    position: fixed;
+    right: 7%;
+    top: 20px;
+    width: 50px;
+    height: 50px;
+    background: url(./img/base_87716f252d.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+input:checked + .global{
+
+    background: url(./img/programming-wallpaper-preview.jpg);
+    background-size: cover;
+}
+input:checked + .global .content{
+    background: url(./img/C1.gif);
+    background-size: cover;
+}
+input:checked + .global .head{
+    background: url(./img/C1.gif);
+    background-size: cover;
+}
+input:checked + .global .bottom .knopka{
+    color: yellowgreen;
+}
+input:checked + .global .bottom .knopka:hover{
+    color: rgb(22, 19, 228);
+}
+input:checked + .global .footer{
+    color: tomato;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input:checked + .global .content1{
+    color: wheat;
+}
+@media screen and (max-width:1080px) {
+    .second{
+        display: none;
+    }
+    .scd{
+        font-size: 45px;
+    }
+
+}
+@media screen and (max-width:830px){
+    .first{
+        font-size: 35px;
+    }
+
+}
+@media screen and (max-width:725px){
+    .img{
+        height: 300px;
+        width: 300px;
+    }
+    .knopka2 a{
+        top: 200px;
+        left: 50px;   
+    }
+}
+@media screen and (max-width:620px){
+    .scd{
+        font-size: 35px;
+    }
+    .trd{
+        font-size: 25px;
+    }
+    .content1 p{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:520px){
+    .head{
+        margin-left: 50px;
+        height: 400px;
+    }
+    .first{
+        margin-left: 0;
+    }
+    .scd{
+        padding-top: 0;
+    }
+    .img{
+        height: 200px;
+        width: 200px;
+    }
+    .knopka2 a{
+        top: 150px;
+        left:50px;   
+    }
+}
+@media screen and (max-width:400px){
+    .first{
+        margin-left: 10px  ;
+    }
+    .content{
+        height: 400px;
+    }
+    .content1{
+        height: 100%;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width:620px){
+
+}
